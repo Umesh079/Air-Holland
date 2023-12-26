@@ -37,6 +37,7 @@ const App = () => {
             headerRight: () => (
               <View style={{ flexDirection: "row", paddingRight: 25 }}>
                 <TouchableOpacity>
+                  <Text>Hello World</Text>
                   <Icon name="bluetooth" size={20} style={{ paddingRight: 15 }}></Icon>
                 </TouchableOpacity>
                 <TouchableOpacity>
